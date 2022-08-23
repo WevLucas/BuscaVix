@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+.titulo{
+    background:#8ac5ff;
+    font-size: 10vh;
+    text-align: center;
+    font-family: 'Calibri';
+	color: white;
+    left: 50vw;
+	height: 100vw;
+	width: 50vw;
+    cursor:default;
+    position:fixed;
+}
+
+.interface{
+    background:white;
+	height: 100vw;
+	width: 50vw;
+    cursor:default
+    position: fixed;
+}
+
+.interface li{
+    color: black;
+    list-style: none;
+    font-size: 8vh;
+    text-align: center;
+    cursor:default;
+    font-family: 'Calibri';
+}
+
+.interface .botao li{
+    color: black;
+    list-style: none;
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'Calibri';
+    cursor:default;
+}

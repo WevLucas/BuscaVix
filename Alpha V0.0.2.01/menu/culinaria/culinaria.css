@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding:0;
+}
+/*----------------------------------Cabeçalho*/
+.sociais{
+	background: #FFFFFF;
+	
+}
+
+.titulo{
+	color: #ffffff;
+	top: 5vh;
+	font-size: 120px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	height: 25vh;
+	width: 150vw;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+.titulo:hover{
+	font-size: 123px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+.cabecalho{
+	background:#8ac5ff;
+	top: 5vh;
+	font-size: 8vh;
+	font-family: 'Calibri';
+	text-align: center;
+	color: white;
+	height: 25vh;
+	width: 100vw;
+	position: relative;
+}
+/*----------------------------------Barra de pesquisa*/
+.pesquisa{
+	font-family: 'Arial';
+	background: #8ac5ff;
+	top: 0vh;
+	height: 5vh;
+	width: 100vw;
+	position: sticky;
+	
+}
+.pesquisa li{
+	list-style:none;
+	padding: 10px;
+	padding-left: 1vh;
+	font-size:18px;
+	text-align: left;
+	color: white;
+}
+
+/*----------------------------------Menu horizontal*/
+.menu{
+	text-align: center;
+	text-transform:uppercase;
+	font-family: 'Calibri';
+	font-size: larger;
+	color:#ffa3eb;
+	background-size: 90vh;
+	list-style: none;
+	cursor: default;
+	top: 5vh;
+	height: 5vh; 
+	width: 100vw;
+	position: sticky;
+	border-radius: 10px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+
+}
+
+.menu li{
+	color: #ffa3eb;
+	display: inline-block;
+	list-style: none;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 3px;
+	text-decoration: none;
+	
+}
+
+.menu li:hover{
+	background-color: #fad9ef;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 10px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.4s ease-in;
+	-moz-transition: 0.4s ease-in; 
+	-o-transition: 0.4s ease-in;
+	transition: 0.4s ease-in;
+	
+}
+
+/*----------------------------------Corpo*/
+body {
+	font-family: 'Arial';
+	background:#FFFFFF;
+	height: 500vh;
+}
+
+.tituloopcoes {/*O que experimentar hoje?*/
+	font: 'Calibri';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	top: 10vh;
+	color: #ffa3eb;
+	position: sticky;
+	cursor: default;
+	
+}
+
+.opcoes {/*Botões com tipos de pratos de comida*/
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 30px;;
+	font-weight: bold;
+	color:#ffa3eb;
+	background-size: 90vh;
+	list-style: none;
+	cursor: default;
+	top: 25vh;
+	height: 5vh; 
+	width: 100vw;
+	position:-ms-page;
+	
+}
+
+.opcoes li {
+	display: flex;
+	color: #ffffff;
+	background-color: #8ac4ff81;
+	display: inline-block;
+	list-style: none;
+	justify-content: space-around;
+	padding: 80px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in; 
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+.opcoes li:hover {
+	color: #ffffff;
+	background-color: #8ac4ff;
+	display: inline-block;
+	list-style: none;
+	justify-content: space-around;
+	padding: 140px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in; 
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+/*----------------------------------Imagens de cada botão*/
+.opcoes li.burguer { /*Hamburguer*/
+	background-image: url(../../imagens/menu/burguer/burguer.jpg);
+	opacity: 0.4;
+	content: none;
+}
+
+.opcoes li.burguer:hover{
+	background-image: url(../../imagens/menu/burguer/burguer.jpg);
+	opacity: 1;
+	content: none;
+	color: #FFFFFF;
+}
+
+.opcoes li.pizza { /*Pizza*/
+	background-image: url(../../imagens/menu/pizza/pizza.jpg);
+	opacity: 0.4;
+	content: none;
+}
+
+.opcoes li.pizza:hover{
+	background-image: url(../../imagens/menu/pizza/pizza.jpg);
+	opacity: 1;
+	content: none;
+	color: #FFFFFF;
+}
+
+.opcoes li.japonesa { /*Japonesa*/
+	background-image: url(../../imagens/menu/japonesa/sushi.jpg);
+	opacity: 0.4;
+	content: none;
+}
+
+.opcoes li.japonesa:hover{
+	background-image: url(../../imagens/menu/japonesa/sushi.jpg);
+	opacity: 1;
+	content: none;
+	color: #FFFFFF;
+}
+
+
+.rodape{
+	color: White;
+	background: #8ac5ff;
+	text-align: center;
+	top: 500vh;
+	height: 10vw;
+	width: 100vw;	
+	position: absolute;
+	bottom: 0;
+}

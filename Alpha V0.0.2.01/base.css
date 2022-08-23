@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+.sociais{
+	background: #FFFFFF;
+	
+}
+
+.titulo{
+	color: #ffffff;
+	top: 5vh;
+	font-size: 120px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	height: 25vh;
+	width: 150vw;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+.titulo:hover{
+	font-size: 123px;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+.cabecalho{
+	background:#8ac5ff;
+	top: 5vh;
+	font-size: 8vh;
+	font-family: 'Calibri';
+	text-align: center;
+	color: white;
+	height: 25vh;
+	width: 100vw;
+	position: relative;
+}
+
+.pesquisa{
+	background: #8ac5ff;
+	top: 0vh;
+	height: 5vh;
+	width: 100vw;
+	position: sticky;
+}
+.pesquisa li{
+	list-style:none;
+	padding: 10px;
+	padding-left: 1vh;
+	font-size:18px;
+	text-align: left;
+	color: white;
+}
+
+.menu{
+	background: #ffffff;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: 'Calibri';
+	font-size: larger;
+	color:#ffa3eb;
+	background-size: 90vh;
+	list-style: none;
+	cursor: default;
+	top: 5vh;
+	height: 5vh; 
+	width: 100vw;
+	position: sticky;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+
+}
+
+.menu li:hover{
+	background-color: #fad9ef;
+	color: #ffffff;
+	font-weight: bold;
+	/* Transição de cores abaixo*/
+	-webkit-transition: 0.4s ease-in;
+	-moz-transition: 0.4s ease-in; 
+	-o-transition: 0.4s ease-in;
+	transition: 0.4s ease-in;
+	border-radius: 10px;
+}
+
+.menu li{
+	color: #ffa3eb;
+	display: inline-block;
+	list-style: none;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 3px;
+	text-decoration: none;
+}
+
+.body {
+	font-family: 'Arial';
+	background:#FFFFFF;
+	height: 500vh;
+}
+
+
+.rodape{
+	color: White;
+	background: #8ac5ff;
+	text-align: center;
+	top: 500vh;
+	height: 10vw;
+	width: 100vw;	
+	position: absolute;
+	bottom: 0;
+}
